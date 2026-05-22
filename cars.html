@@ -6,10 +6,28 @@
     <title>Luxury Car Brands | Elite Collection</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+      .category-section {
+        margin-bottom: 60px;
+      }
+      .category-title {
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 2rem;
+        margin-bottom: 40px;
+        padding: 15px 0;
+        border-top: 1px solid rgba(212, 175, 55, 0.3);
+        border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+        color: #fff;
+      }
+      .category-title span {
+        color: #d4af37;
+      }
+    </style>
   </head>
   <body>
     <nav>
-      <div class="logo">LUXURY<span>HUB</span></div>
+      <div class="logo">THE ELITE<span> PRIME</span></div>
       <div class="hamburger" onclick="toggleMenu()">☰</div>
       <ul id="nav-menu">
         <li><a href="index.html">Home</a></li>
@@ -24,247 +42,188 @@
         <p>Explore the world's most prestigious luxury automotive manufacturers.</p>
       </header>
 
-      <div class="brand-grid">
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1563720223185-11069f53e3b9?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Rolls-Royce</h3>
-            <p>The global benchmark for bespoke luxury.</p>
-            <a href="#" class="view-btn">View Models</a>
-          </div>
-        </div>
+      <!-- ULTRA LUXURY -->
+      <div class="category-section">
+        <h2 class="category-title" data-aos="fade-up">👑 <span>Ultra Luxury</span></h2>
+        <div class="brand-grid">
 
-        <div class="brand-card" data-aos="fade-up" data-aos-delay="100">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1580274455191-1c62238fa333?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Bentley</h3>
-            <p>Unrivaled power and handcrafted luxury.</p>
-            <a href="#" class="view-btn">View Models</a>
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/rolls-royce.png')"></div>
+            <div class="brand-content"><h3>Rolls-Royce</h3><p>The global benchmark for bespoke luxury.</p><a href="#" class="view-btn">View Models</a></div>
           </div>
-        </div>
 
-        <div class="brand-card" data-aos="fade-up" data-aos-delay="200">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1592198084033-aade902d1aae?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Ferrari</h3>
-            <p>Italian excellence in speed and racing soul.</p>
-            <a href="#" class="view-btn">View Models</a>
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/bentley.png')"></div>
+            <div class="brand-content"><h3>Bentley</h3><p>Unrivaled power and handcrafted luxury.</p><a href="#" class="view-btn">View Models</a></div>
           </div>
-        </div>
 
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Lamborghini</h3>
-            <p>Aggressive design and raw Italian power.</p>
-            <a href="#" class="view-btn">View Models</a>
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/Ferrari.png')"></div>
+            <div class="brand-content"><h3>Ferrari</h3><p>Italian excellence in speed and racing soul.</p><a href="#" class="view-btn">View Models</a></div>
           </div>
-        </div>
 
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Bugatti</h3>
-            <p>Pushing the boundaries of speed and luxury.</p>
-            <a href="#" class="view-btn">View Models</a>
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/lamborghini.png')"></div>
+            <div class="brand-content"><h3>Lamborghini</h3><p>Aggressive design and raw Italian power.</p><a href="#" class="view-btn">View Models</a></div>
           </div>
-        </div>
 
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Maybach</h3>
-            <p>The ultimate expression of Mercedes luxury.</p>
-            <a href="#" class="view-btn">View Models</a>
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/Bugatti.png')"></div>
+            <div class="brand-content"><h3>Bugatti</h3><p>Pushing the boundaries of speed and luxury.</p><a href="#" class="view-btn">View Models</a></div>
           </div>
-        </div>
 
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Mercedes-Benz</h3>
-            <p>Innovation and premium German engineering.</p>
-            <a href="#" class="view-btn">View Models</a>
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/maybach.png')"></div>
+            <div class="brand-content"><h3>Maybach</h3><p>The ultimate expression of Mercedes luxury.</p><a href="#" class="view-btn">View Models</a></div>
           </div>
-        </div>
 
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1712194289451-4044105509f0?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>BMW</h3>
-            <p>The ultimate driving experience and performance.</p>
-            <a href="#" class="view-btn">View Models</a>
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/maserati.png')"></div>
+            <div class="brand-content"><h3>Maserati</h3><p>Luxury and racing-bred soul from Italy.</p><a href="#" class="view-btn">View Models</a></div>
           </div>
-        </div>
 
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1745444332914-30c9cda69b9e?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Audi</h3>
-            <p>Progressive technology and sleek luxury design.</p>
-            <a href="#" class="view-btn">View Models</a>
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/aston-martin.png')"></div>
+            <div class="brand-content"><h3>Aston Martin</h3><p>British elegance, power, and timeless style.</p><a href="#" class="view-btn">View Models</a></div>
           </div>
-        </div>
 
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Porsche</h3>
-            <p>Masterful engineering and sports car heritage.</p>
-            <a href="#" class="view-btn">View Models</a>
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/mclaren.png')"></div>
+            <div class="brand-content"><h3>McLaren</h3><p>Advanced racing technology for the road.</p><a href="#" class="view-btn">View Models</a></div>
           </div>
-        </div>
 
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1596561552392-494f1c7d23f7?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Aston Martin</h3>
-            <p>British elegance, power, and timeless style.</p>
-            <a href="#" class="view-btn">View Models</a>
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/koenigsegg.png')"></div>
+            <div class="brand-content"><h3>Koenigsegg</h3><p>Extreme Swedish engineering and world records.</p><a href="#" class="view-btn">View Models</a></div>
           </div>
-        </div>
 
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1621285853634-713b8dd0b240?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>McLaren</h3>
-            <p>Advanced racing technology for the road.</p>
-            <a href="#" class="view-btn">View Models</a>
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/pagani.png')"></div>
+            <div class="brand-content"><h3>Pagani</h3><p>The intersection of high-art and hypercar power.</p><a href="#" class="view-btn">View Models</a></div>
           </div>
-        </div>
 
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1739469352658-f18d759a29e3?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Lexus</h3>
-            <p>Exquisite Japanese craftsmanship and reliability.</p>
-            <a href="#" class="view-btn">View Models</a>
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1617469767053-d3b523a0b982?q=80&w=500')"></div>
+            <div class="brand-content"><h3>Rimac</h3><p>Croatian electric hypercar innovation at its finest.</p><a href="#" class="view-btn">View Models</a></div>
           </div>
-        </div>
 
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Jaguar</h3>
-            <p>Grace, space, and pace from a British icon.</p>
-            <a href="#" class="view-btn">View Models</a>
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=500')"></div>
+            <div class="brand-content"><h3>Hennessey</h3><p>American hypercar engineering pushing every limit.</p><a href="#" class="view-btn">View Models</a></div>
           </div>
-        </div>
 
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1567818735868-e71b99932e29?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Cadillac</h3>
-            <p>The standard of American luxury and bold design.</p>
-            <a href="#" class="view-btn">View Models</a>
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1621135552498-f8af5b807dc3?q=80&w=500')"></div>
+            <div class="brand-content"><h3>SSC North America</h3><p>Record-breaking American supercar performance.</p><a href="#" class="view-btn">View Models</a></div>
           </div>
-        </div>
 
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1609521263047-f8f205293f24?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Genesis</h3>
-            <p>Korean luxury with a new level of elegance.</p>
-            <a href="#" class="view-btn">View Models</a>
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=500')"></div>
+            <div class="brand-content"><h3>Gordon Murray</h3><p>Lightweight British engineering at its absolute peak.</p><a href="#" class="view-btn">View Models</a></div>
           </div>
-        </div>
 
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Maserati</h3>
-            <p>Luxury and racing-bred soul from Italy.</p>
-            <a href="#" class="view-btn">View Models</a>
-          </div>
-        </div>
-
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Alfa Romeo</h3>
-            <p>Italian passion, beauty, and mechanical art.</p>
-            <a href="#" class="view-btn">View Models</a>
-          </div>
-        </div>
-
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1628744448839-497918ca973b?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Koenigsegg</h3>
-            <p>Extreme Swedish engineering and world records.</p>
-            <a href="#" class="view-btn">View Models</a>
-          </div>
-        </div>
-
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Acura</h3>
-            <p>Precision-crafted performance and technology.</p>
-            <a href="#" class="view-btn">View Models</a>
-          </div>
-        </div>
-
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1556189250-72ba954cfc2b?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Infiniti</h3>
-            <p>Dynamic Japanese performance and premium style.</p>
-            <a href="#" class="view-btn">View Models</a>
-          </div>
-        </div>
-
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1606064710041-383186178018?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Lincoln</h3>
-            <p>American premium comfort and refined SUV luxury.</p>
-            <a href="#" class="view-btn">View Models</a>
-          </div>
-        </div>
-
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1620332430132-09490297b83d?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Lotus</h3>
-            <p>Mastering the art of lightweight performance.</p>
-            <a href="#" class="view-btn">View Models</a>
-          </div>
-        </div>
-
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1606064710041-383186178018?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Land Rover</h3>
-            <p>The global leader in luxury all-terrain performance.</p>
-            <a href="#" class="view-btn">View Models</a>
-          </div>
-        </div>
-
-        <div class="brand-card" data-aos="fade-up">
-          <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1565551392683-05459392e22c?q=80&w=500')"></div>
-          <div class="brand-content">
-            <h3>Pagani</h3>
-            <p>The intersection of high-art and hypercar power.</p>
-            <a href="#" class="view-btn">View Models</a>
-          </div>
         </div>
       </div>
-    </section>
 
-    <footer>
-      <p>&copy; 2026 Luxury Hub by Lithira | Designed for the Elite</p>
-    </footer>
+      <!-- PREMIUM LUXURY -->
+      <div class="category-section">
+        <h2 class="category-title" data-aos="fade-up">⭐ <span>Premium Luxury</span></h2>
+        <div class="brand-grid">
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init({ duration: 1000, once: true, offset: 100 });
-      function toggleMenu() {
-        document.getElementById('nav-menu').classList.toggle('open');
-      }
-    </script>
-  </body>
-</html<!-- EMERGING/NICHE -->
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/mercedes.png')"></div>
+            <div class="brand-content"><h3>Mercedes-Benz</h3><p>Innovation and premium German engineering.</p><a href="#" class="view-btn">View Models</a></div>
+          </div>
+
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/bmw.png')"></div>
+            <div class="brand-content"><h3>BMW</h3><p>The ultimate driving experience and performance.</p><a href="#" class="view-btn">View Models</a></div>
+          </div>
+
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/audi.png')"></div>
+            <div class="brand-content"><h3>Audi</h3><p>Progressive technology and sleek luxury design.</p><a href="#" class="view-btn">View Models</a></div>
+          </div>
+
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/porsche.png')"></div>
+            <div class="brand-content"><h3>Porsche</h3><p>Masterful engineering and sports car heritage.</p><a href="#" class="view-btn">View Models</a></div>
+          </div>
+
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/jaguar.png')"></div>
+            <div class="brand-content"><h3>Jaguar</h3><p>Grace, space, and pace from a British icon.</p><a href="#" class="view-btn">View Models</a></div>
+          </div>
+
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/land-rover.png')"></div>
+            <div class="brand-content"><h3>Land Rover</h3><p>The global leader in luxury all-terrain performance.</p><a href="#" class="view-btn">View Models</a></div>
+          </div>
+
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/lexus.png')"></div>
+            <div class="brand-content"><h3>Lexus</h3><p>Exquisite Japanese craftsmanship and reliability.</p><a href="#" class="view-btn">View Models</a></div>
+          </div>
+
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/cadillac.png')"></div>
+            <div class="brand-content"><h3>Cadillac</h3><p>The standard of American luxury and bold design.</p><a href="#" class="view-btn">View Models</a></div>
+          </div>
+
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/lincoln.png')"></div>
+            <div class="brand-content"><h3>Lincoln</h3><p>American premium comfort and refined SUV luxury.</p><a href="#" class="view-btn">View Models</a></div>
+          </div>
+
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/genesis.png')"></div>
+            <div class="brand-content"><h3>Genesis</h3><p>Korean luxury with a new level of elegance.</p><a href="#" class="view-btn">View Models</a></div>
+          </div>
+
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/infiniti.png')"></div>
+            <div class="brand-content"><h3>Infiniti</h3><p>Dynamic Japanese performance and premium style.</p><a href="#" class="view-btn">View Models</a></div>
+          </div>
+
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/acura.png')"></div>
+            <div class="brand-content"><h3>Acura</h3><p>Precision-crafted performance and technology.</p><a href="#" class="view-btn">View Models</a></div>
+          </div>
+
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/alfa-romeo.png')"></div>
+            <div class="brand-content"><h3>Alfa Romeo</h3><p>Italian passion, beauty, and mechanical art.</p><a href="#" class="view-btn">View Models</a></div>
+          </div>
+
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('images/lotus.png')"></div>
+            <div class="brand-content"><h3>Lotus</h3><p>Mastering the art of lightweight performance.</p><a href="#" class="view-btn">View Models</a></div>
+          </div>
+
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1558618047-3c8c76ca5a9e?q=80&w=500')"></div>
+            <div class="brand-content"><h3>De Tomaso</h3><p>Italian-American fusion of style and raw power.</p><a href="#" class="view-btn">View Models</a></div>
+          </div>
+
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=500')"></div>
+            <div class="brand-content"><h3>Spyker</h3><p>Dutch artistry meets aviation-inspired luxury design.</p><a href="#" class="view-btn">View Models</a></div>
+          </div>
+
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1611016186353-9af58c69a533?q=80&w=500')"></div>
+            <div class="brand-content"><h3>Noble</h3><p>British lightweight supercar purity and precision.</p><a href="#" class="view-btn">View Models</a></div>
+          </div>
+
+          <div class="brand-card" data-aos="fade-up">
+            <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=500')"></div>
+            <div class="brand-content"><h3>Caterham</h3><p>Pure driving experience stripped to its bare essence.</p><a href="#" class="view-btn">View Models</a></div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- EMERGING/NICHE -->
       <div class="category-section">
         <h2 class="category-title" data-aos="fade-up">🚀 <span>Emerging / Niche</span></h2>
         <div class="brand-grid">
@@ -278,6 +237,8 @@
             <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1636016303546-8bfe2ece8bf7?q=80&w=500')"></div>
             <div class="brand-content"><h3>Rivian</h3><p>Adventure-ready electric luxury for the modern era.</p><a href="#" class="view-btn">View Models</a></div>
           </div>
+
+        </div>
 
           <div class="brand-card" data-aos="fade-up">
             <div class="brand-img" style="background-image: url('https://images.unsplash.com/photo-1560958089-b8a1929cea89?q=80&w=500')"></div>
@@ -314,12 +275,12 @@
             <div class="brand-content"><h3>Faraday Future</h3><p>Next-gen electric hypercar redefining the future.</p><a href="#" class="view-btn">View Models</a></div>
           </div>
 
-        </div>
       </div>
+
     </section>
 
     <footer>
-      <p>&copy; 2026 Luxury Hub by Lithira | Designed for the Elite</p>
+      <p>&copy; 2026 THE ELITE PRIME by Lithira Gimnath | Designed for the Elite</p>
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
